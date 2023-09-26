@@ -30,11 +30,16 @@ header {
   border-style: solid;
   border-color: lightgoldenrodyellow;
 
-  width: fit-content;
-  margin: auto;
+  width: 40%;
   padding: 1rem;
 
   position: center;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  align-items: center;
 }
 
 /* styling h1 */
