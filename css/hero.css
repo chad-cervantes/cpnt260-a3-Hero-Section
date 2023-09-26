@@ -1,0 +1,36 @@
+/* styling body */
+body {
+  font-size: 200px;
+
+  margin: 0;
+}
+
+/* styling title */
+header {
+  display: flex;
+  justify-content: center;
+
+  height: 100vh;
+
+  background-image: url(https://picsum.photos/id/1082/2000/1500);
+  background-color: rgb(141, 57, 57);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: white;
+}
+
+p {
+  font-family: 'Noto Music', sans-serif;
+  font-size: clamp(64px, 10vw, 128px);
+
+  margin: 0;
+
+  padding-top: 15vh;
+}
+
+@media screen and (width > 40rem) {
+  p {
+    padding-top: 10vh;
+  }
