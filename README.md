@@ -1,6 +1,6 @@
 # cpnt260-a3-Hero-Section
 ## CPNT 260
-### Assignment 2: Single Card 
+### Assignment 3: Hero Section with a Call-to-Action
 ### Author: Chad Cervantes 
 [GitHub Page]
 
