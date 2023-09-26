@@ -1,8 +1,10 @@
 /* styling body */
 body {
-  font-size: 200px;
+  font-size: 75px;
 
   margin: 0;
+
+  line-height: 1.5;
 }
 
 /* styling title */
@@ -14,23 +16,64 @@ header {
 
   background-image: url(https://picsum.photos/id/1082/2000/1500);
   background-color: rgb(141, 57, 57);
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
   color: white;
 }
 
+/* styling paragraph */
 p {
   font-family: 'Noto Music', sans-serif;
-  font-size: clamp(64px, 10vw, 128px);
 
   margin: 0;
 
   padding-top: 15vh;
 }
+/* styling navbar*/
+nav ul {
+  
+  padding-left: 0;
+  margin: 0;
 
-@media screen and (width > 40rem) {
+  list-style: none
+  ;
+  background-color: black;
+
+  display: block;
+  justify-content: flex-end;
+
+  font-size: 25px;
+}
+
+/* nav hover */
+nav a:hover {
+  background-color: lightsalmon;
+}
+
+/* nav buttons */
+nav a {
+  display: block;
+  padding: 1.5rem;
+  
+  text-align: center;
+  text-decoration: none;
+  
+  color: white;
+}
+
+@media screen and (width > 40em) {
   p {
     padding-top: 10vh;
   }
+}
+  
+@media (width > 50em) {
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: auto;
+  }
+}
