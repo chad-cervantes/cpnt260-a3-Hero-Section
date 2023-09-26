@@ -14,8 +14,6 @@ header {
   justify-content: center;
   align-items: center;
 
-  height: 100vh;
-
   background-image: url(https://picsum.photos/id/1082/2000/1500);
   background-color: rgb(141, 57, 57);
   background-position: center;
@@ -32,8 +30,16 @@ header {
   border-style: solid;
   border-color: lightgoldenrodyellow;
 
-  height: 20vh;
-  max-width: 50ch;
+  width: fit-content;
+  margin: auto;
+  padding: 1rem;
+
+  position: center;
+}
+
+/* styling h1 */
+h1 {
+  height: 49vh;
 }
 
 /* styling h3 */
@@ -42,7 +48,7 @@ h3 {
   font-size: 20px;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 
   color: black;
 }
@@ -78,7 +84,7 @@ button {
   font-size: 25px; 
   
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
 
   gap: 1rem ;
 }
@@ -86,6 +92,7 @@ button {
 /* nav hover */
 nav a:hover {
   background-color: lightsalmon;
+  padding: 1rem;
 }
 
 /* nav buttons */
