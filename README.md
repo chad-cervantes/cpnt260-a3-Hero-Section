@@ -12,4 +12,7 @@
 - [Piano Icon from Google](https://apcamusic.org/files/2021/08/dry-clean-(46)3.png?w=420&h=NaN)
   - [Original Source of image](https://apcamusic.org/)
 
+- [Link for 'Sign Up' button](https://www.timemusicstudios.ca/?page_id=54)
+  - See line 29 in index.html
+
 ### Above and Beyond
