@@ -30,7 +30,7 @@ header {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
   border-style: solid;
-  border-color: lightgoldenrodyellow;
+  border-color: black;
   border-radius: 25%;
 
   width: 40%;
@@ -38,8 +38,6 @@ header {
   margin: auto;
 
   align-items: center;
-
-  background-color: gray;
 }
 
 /* styling image */
@@ -63,14 +61,14 @@ h3 {
   display: flex;
   justify-content: center;
 
-  color: black;
+  color: whitesmoke;
 }
 
 /* styling paragraph */
 p {
   font-size: 20px;
 
-  color: black;
+  color: whitesmoke;
 
   display: flex;
   justify-content: center;
@@ -81,7 +79,12 @@ button {
   display: flex;
   justify-content: center;
 
+  padding: 0.5rem 1rem;
   margin: auto;
+  width: max-content;
+
+  border-radius: .5rem;
+  border-style: solid;
 }
 
 /* styling navbar*/
