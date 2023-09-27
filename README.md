@@ -15,4 +15,8 @@
 - [Link for 'Sign Up' button](https://www.timemusicstudios.ca/?page_id=54)
   - See line 29 in index.html
 
+[Additional colors for CSS](https://heyreliable.com/ultimate-google-font-pairings/)
+
+[Mozilla Developer](https://developer.mozilla.org/en-US/)
+
 ### Above and Beyond
