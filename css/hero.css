@@ -78,6 +78,7 @@ h2 {
   /* padding-bottom: 40vh; */
 }
 
+
 /* styling h3 */
 h3 {
   font-family: 'Noto Music', sans-serif;
@@ -86,7 +87,8 @@ h3 {
   display: flex;
   justify-content: center;
 
-  color: black;
+  color: #ffc948;
+  background-color: black;
 
   text-align: center;
 }
@@ -95,8 +97,9 @@ h3 {
 p {
   font-size: 20px;
 
-  color: black;
-
+  color: #ffc948;
+  background-color: black;
+  
   text-align: center;
 }
 
