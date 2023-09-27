@@ -14,7 +14,7 @@ header {
   justify-content: center;
   align-items: center;
 
-  height: 100vh;
+  height: 115vh;
 
   background-image: url(https://picsum.photos/id/1082/2000/1500);
   background-color: rgb(141, 57, 57);
@@ -40,6 +40,19 @@ header {
   align-items: center;
 
   background-color: gray;
+}
+
+/* styling image */
+img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+
+  object-fit: cover;
+  clip-path: circle(100%);
+  
+  width: 50%;
 }
 
 /* styling h3 */
