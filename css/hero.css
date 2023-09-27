@@ -108,25 +108,25 @@ button {
   display: flex;
   justify-content: center;
 
-  padding: 0.5rem 1rem;
+  padding: 1rem;
   margin: auto;
   width: max-content;
 
-  border-radius: .5rem;
+  border-radius: 5rem;
   border-style: solid;
 
   text-decoration: none;
 
-  background-color: black;
-  color: white;
+  color: black;
 }
 
 button:active {
-  color: orange;
+  color: orangered;
 }
 
 button:hover {
   filter: drop-shadow(5px 5px 5px red);
+  background-color: #d7c6ab;
 }
 
 /* styling navbar*/
