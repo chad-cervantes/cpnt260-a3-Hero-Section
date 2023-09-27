@@ -6,6 +6,8 @@ body {
   margin: auto;
  
   line-height: 1.5;
+
+  overflow-x: hidden;
 }
 
 /* styling title */
@@ -14,9 +16,7 @@ header {
   justify-content: center;
   align-items: center;
 
-  height: 115vh;
-
-  background-image: url(https://picsum.photos/id/1082/2000/1500);
+  background-image: url(https://picsum.photos/id/1082/2000/900);
   background-color: rgb(141, 57, 57);
   background-position: top;
   background-repeat: no-repeat;
@@ -99,8 +99,6 @@ button {
   justify-content: space-evenly;
   
   margin-top: -10px;
-  
-  gap: 1rem ;
 }
 
 /* nav hover */
