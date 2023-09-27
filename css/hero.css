@@ -1,6 +1,6 @@
 /* styling body */
 body {
-  font-size: 90px;
+  /* font-size: 90px; */
   font-family: 'Noto Music', sans-serif;
 
   margin: auto;
@@ -12,17 +12,13 @@ body {
 
 /* styling title */
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  background-image: url(https://picsum.photos/id/1082/2000/900);
-  background-color: rgb(141, 57, 57);
+  background-image: url(https://picsum.photos/id/1082/1500/900);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 
   color: white;
+  height: 110vh;
 }
 
 .piano-card {
@@ -36,8 +32,6 @@ header {
   width: 40%;
   padding: 1rem;
   margin: auto;
-
-  align-items: center;
 }
 
 /* styling image */
@@ -53,6 +47,33 @@ img {
   width: 50%;
 }
 
+h1 {
+  /* display: flex;
+  justify-content: center; */
+
+  /* padding-bottom: 35vh; */
+  font-size: 90px;
+
+  border: none;
+
+  text-align: center;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 30px;
+
+  /* display: flex;
+  justify-content: center; */
+
+  margin: 0;
+
+  text-align: center;
+
+
+  /* padding-bottom: 40vh; */
+}
+
 /* styling h3 */
 h3 {
   font-family: 'Noto Music', sans-serif;
@@ -62,6 +83,9 @@ h3 {
   justify-content: center;
 
   color: whitesmoke;
+
+  display: grid;
+  justify-items: center;
 }
 
 /* styling paragraph */
@@ -72,6 +96,9 @@ p {
 
   display: flex;
   justify-content: center;
+
+  display: grid;
+  justify-items: center;
 }
 
 /* styling button */
