@@ -17,7 +17,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 
-  color: white;
   height: 110vh;
 }
 
@@ -29,9 +28,11 @@ header {
   border-color: black;
   border-radius: 25%;
 
-  width: 40%;
-  padding: 1rem;
+  width: 15%;
+  /* padding: 1rem; */
   margin: auto;
+
+  color: black;
 }
 
 /* styling image */
@@ -58,6 +59,8 @@ h1 {
 
   text-align: center;
   margin: 0 auto;
+
+  color: white;
 }
 
 h2 {
@@ -70,6 +73,7 @@ h2 {
 
   text-align: center;
 
+  color: white;
 
   /* padding-bottom: 40vh; */
 }
@@ -82,23 +86,18 @@ h3 {
   display: flex;
   justify-content: center;
 
-  color: whitesmoke;
+  color: black;
 
-  display: grid;
-  justify-items: center;
+  text-align: center;
 }
 
 /* styling paragraph */
 p {
   font-size: 20px;
 
-  color: whitesmoke;
+  color: black;
 
-  display: flex;
-  justify-content: center;
-
-  display: grid;
-  justify-items: center;
+  text-align: center;
 }
 
 /* styling button */
@@ -126,7 +125,9 @@ button {
   font-size: 25px; 
   
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-end;
+
+  gap: 1rem;
   
   margin-top: -10px;
 }
