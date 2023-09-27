@@ -17,19 +17,19 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 
-  height: 110vh;
+  height: 110vh;  
 }
 
 .piano-card {
   /* styling single card */ 
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
-  border-style: solid;
+  /* border-style: solid; */
   border-color: black;
   border-radius: 25%;
 
   width: 15%;
-  /* padding: 1rem; */
+  padding: 1rem;
   margin: auto;
 
   color: black;
@@ -116,7 +116,7 @@ button {
 /* styling navbar*/
  nav ul {
   padding: 1rem;
-  padding-left: 0;
+  /* padding-left: 0; */
 
   list-style: none;
 
