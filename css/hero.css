@@ -111,6 +111,19 @@ button {
 
   border-radius: .5rem;
   border-style: solid;
+
+  text-decoration: none;
+
+  background-color: black;
+  color: white;
+}
+
+button:active {
+  color: orange;
+}
+
+button:hover {
+  filter: drop-shadow(5px 5px 5px red);
 }
 
 /* styling navbar*/
