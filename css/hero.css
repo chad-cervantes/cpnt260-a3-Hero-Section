@@ -17,6 +17,11 @@ header {
   height: 110vh;  
 }
 
+main {
+  text-align: center;
+  font-size: 15px;
+}
+
 h1 {
   font-family: 'Noto Music', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 100px;
