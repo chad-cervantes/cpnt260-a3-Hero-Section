@@ -82,6 +82,9 @@ h3 {
   justify-content: flex-start;
 
   float: left;
+  background-color: black;
+  
+  padding: 0.17rem;
 }
 
 /* styling image */
