@@ -23,4 +23,7 @@
 
 [Mozilla Developer](https://developer.mozilla.org/en-US/)
 
+[Lorem Picsum](https://picsum.photos/)
+  - [Hero Section image used from Lorem Picsum](https://fastly.picsum.photos/id/1082/5000/3334.jpg?hmac=44XgU_oubiefk4FmdomL506on7YDW51TgGUmsau8PRE)
+
 ### Above and Beyond
