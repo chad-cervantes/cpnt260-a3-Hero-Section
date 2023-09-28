@@ -84,7 +84,7 @@ h3 {
   float: left;
   background-color: black;
   
-  padding: 0.17rem;
+  padding: 0.18rem;
 }
 
 /* styling image */
@@ -149,6 +149,8 @@ a {
   justify-content: flex-end;
 
   gap: 2rem;
+
+  margin: auto;
 
   /* width: auto; */
   
