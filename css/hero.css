@@ -74,20 +74,23 @@ h3 {
 }
 
 .logo {
-  width: 140px;
-  object-fit: fill;
+  width: 60px;
+  height: 60px;
+  /* object-fit: fill; */
 
-  display: flex;
-  justify-content: flex-start;
+  display: block;
+  /* justify-content: flex-start;  */
 
-  float: left;
-  background-color: black;
+  /* float: left; */
+  /* background-color: black; */
   
-  padding: 0.1rem;
+  padding: 1rem;
+
+  align-items: center;
 }
 
 /* styling image */
-img {
+/* img {
   display: flex;
   justify-content: center;
   margin: auto;
@@ -97,7 +100,7 @@ img {
   clip-path: circle(100%);
   
   width: 50%;
-}
+} */
 
 /* styling button */
 button {
@@ -134,6 +137,14 @@ a {
   text-decoration: none;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+
+  align-items: center;
+}
+
 /* styling navbar*/
  nav ul {
   padding: 1rem;
@@ -147,10 +158,11 @@ a {
   
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 
   gap: 2rem;
 
-  margin: auto;
+  margin: 0;
 
   /* width: auto; */
   
