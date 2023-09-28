@@ -6,8 +6,9 @@
 
 ### Attributions
 - [Google Fonts](https://fonts.google.com/)
-  - See lines 8-10 in index.html
-- [Noto Music](https://fonts.google.com/noto/specimen/Noto+Music?query=music)
+  - [Noto Music](https://fonts.google.com/noto/specimen/Noto+Music?query=music)
+  - Noto Music: See lines 8-10 in index.html
+  
 
 - [Piano Icon from Google Images](https://apcamusic.org/files/2021/08/dry-clean-(46)3.png?w=420&h=NaN)
   - See line 29 in index.html
