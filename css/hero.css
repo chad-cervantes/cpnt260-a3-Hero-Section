@@ -75,11 +75,13 @@ h3 {
 }
 
 .logo {
-  width: 175px;
+  width: 100px;
   object-fit: fill;
 
   display: flex;
   justify-content: flex-start;
+
+  float: left;
 }
 
 /* styling image */
@@ -145,7 +147,7 @@ a {
 
   gap: 2rem;
 
-  width: auto;
+  /* width: auto; */
   
   /* margin-top: -10px; */
 }
@@ -155,15 +157,15 @@ nav a:hover {
   background-color: lightsalmon;
   padding: 0.2rem 0.5rem 0.5rem 0.5rem;
 
-  gap: none;
+  /* gap: none; */
 }
 
 /* nav buttons */
 nav a {
   font-family: 'Noto Music', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-  text-align: center;
-  text-decoration: none;
+  /* text-align: center;
+  text-decoration: none; */
   
   color: white;
 }
