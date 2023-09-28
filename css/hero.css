@@ -50,15 +50,13 @@ h3 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 20px;
 
-  display: flex;
-  justify-content: center;
-
   color: #ffc948;
   /* background-color: black; */
 
   text-align: center;
 
-  border-radius: 10px;
+  max-width: 40ch;
+  margin: auto;
 }
 
 .piano-card {
@@ -67,9 +65,10 @@ h3 {
   border-color: black;
   border-radius: 25%;
 
-  width: 15%;
+  max-width: 40ch;
   padding: 10px;
   margin: auto;
+  margin-top: 40px;
 
   color: black;
 }
@@ -109,6 +108,7 @@ button {
 
   padding: 15px 30px 15px 30px;
   margin: auto;
+  margin-top: 40px;
   width: 100%;
 
   border-radius: 10px;
