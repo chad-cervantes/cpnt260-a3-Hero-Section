@@ -91,6 +91,8 @@ h3 {
   background-color: black;
 
   text-align: center;
+
+  border-radius: 10px;
 }
 
 /* styling paragraph */
@@ -101,6 +103,8 @@ p {
   background-color: black;
   
   text-align: center;
+
+  border-radius: 10px;
 }
 
 /* styling button */
@@ -108,25 +112,33 @@ button {
   display: flex;
   justify-content: center;
 
-  padding: 1rem;
+  font-size: 30px;
+
+  padding: 15px 30px;
   margin: auto;
-  width: max-content;
+  width: 100%;
 
-  border-radius: 5rem;
+  border-radius: 10px;
   border-style: solid;
+  border-color: #e9dfad;
 
-  text-decoration: none;
-
-  color: black;
+  background-color: #e9dfad;
 }
 
+/* colored sign up */
 button:active {
   color: orangered;
 }
 
+/* styled button */
 button:hover {
-  filter: drop-shadow(5px 5px 5px red);
+  filter: drop-shadow(5px 5px 5px gold);
   background-color: #d7c6ab;
+}
+
+/* deleted underline */
+a {
+  text-decoration: none;
 }
 
 /* styling navbar*/
@@ -143,7 +155,7 @@ button:hover {
   display: flex;
   justify-content: flex-end;
 
-  gap: 1rem;
+  gap: 2rem;
   
   margin-top: -10px;
 }
