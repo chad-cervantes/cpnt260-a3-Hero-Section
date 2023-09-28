@@ -180,13 +180,12 @@ nav a {
   color: white;
 }
 
-/* @media (width > 40em) {
-    h2 {
-      color: white;
-    }
-    
-    h3 {
-      color: orange;
-    }
-  } */
+@media (color) {
+  nav {
+    background-color: #1d2732;
+  } 
+  nav ul {
+    background-color: #1d2732;
+  }
+}
 
