@@ -19,8 +19,6 @@ header {
 
 .piano-card {
   /* styling single card */ 
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
   /* border-style: solid; */
   border-color: black;
   border-radius: 25%;
