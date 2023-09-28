@@ -75,7 +75,7 @@ h3 {
 }
 
 .logo {
-  width: 100px;
+  width: 140px;
   object-fit: fill;
 
   display: flex;
@@ -84,7 +84,7 @@ h3 {
   float: left;
   background-color: black;
   
-  padding: 0.18rem;
+  padding: 0.1rem;
 }
 
 /* styling image */
@@ -136,7 +136,7 @@ a {
 
 /* styling navbar*/
  nav ul {
-  padding: 0.45rem;
+  padding: 1rem;
   /* padding-left: 0; */
 
   list-style: none;
@@ -160,7 +160,7 @@ a {
 /* nav hover */
 nav a:hover {
   background-color: lightsalmon;
-  padding: 0.2rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem 0.5rem 01rem 0.5rem;
 
   /* gap: none; */
 }
