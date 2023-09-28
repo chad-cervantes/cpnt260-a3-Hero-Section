@@ -17,40 +17,14 @@ header {
   height: 110vh;  
 }
 
-.piano-card {
-  /* styling single card */ 
-  /* border-style: solid; */
-  border-color: black;
-  border-radius: 25%;
-
-  width: 15%;
-  padding: 1rem;
-  margin: auto;
-
-  color: black;
-}
-
-/* styling image */
-img {
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  align-items: center;
-
-  object-fit: cover;
-  clip-path: circle(100%);
-  
-  width: 50%;
-}
-
 h1 {
   font-family: 'Noto Music', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 100px;
 
-  border: none;
+  padding: 10px;
+  margin: 10px;
 
   text-align: center;
-  margin: 0 auto;
 
   color: white;
 }
@@ -87,12 +61,38 @@ h3 {
   border-radius: 10px;
 }
 
+.piano-card {
+  /* styling single card */ 
+  /* border-style: solid; */
+  border-color: black;
+  border-radius: 25%;
+
+  width: 15%;
+  padding: 10px;
+  margin: auto;
+
+  color: black;
+}
+
 .logo {
   width: 175px;
   object-fit: fill;
 
   display: flex;
   justify-content: flex-start;
+}
+
+/* styling image */
+img {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+
+  object-fit: cover;
+  clip-path: circle(100%);
+  
+  width: 50%;
 }
 
 /* styling button */
@@ -102,7 +102,7 @@ button {
 
   font-size: 20px;
 
-  padding: 15px 30px;
+  padding: 15px 30px 15px 30px;
   margin: auto;
   width: 100%;
 
