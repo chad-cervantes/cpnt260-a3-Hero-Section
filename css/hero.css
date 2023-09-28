@@ -131,12 +131,12 @@ a {
 
 /* styling navbar*/
  nav ul {
-  padding: 1rem;
+  padding: 0.45rem;
   /* padding-left: 0; */
 
   list-style: none;
 
-  background-color: gold;
+  background-color: black;
 
   font-size: 25px; 
   
@@ -153,13 +153,17 @@ a {
 /* nav hover */
 nav a:hover {
   background-color: lightsalmon;
-  padding: 0.7rem;
+  padding: 0.2rem 0.5rem 0.5rem 0.5rem;
+
+  gap: none;
 }
 
 /* nav buttons */
 nav a {
+  font-family: 'Noto Music', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
   text-align: center;
   text-decoration: none;
   
-  color: black;
+  color: white;
 }
