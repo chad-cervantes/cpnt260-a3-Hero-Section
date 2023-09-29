@@ -17,10 +17,9 @@ nav {
 
   background-color: black;
  
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-
+  display: block;
+  justify-content: center;
+  
   gap: 1rem;
 
   margin: 0;
@@ -44,5 +43,13 @@ nav a {
   } 
   nav ul {
     background-color: #1d2732;
+  }
+}
+
+@media (min-width: 50rem) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;  
+    align-items: center;
   }
 }

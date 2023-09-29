@@ -1,28 +1,23 @@
 /* styling body */
 body {
-  max-width: auto;
-
   font-size: 30px;
 
   margin: auto;
- 
-  line-height: 1.5;
 
-  overflow-x: hidden;
+  line-height: 1.5;
 }
 
 main {
-  max-width: 85ch;
   text-align: center;
 }
 
 /* styling title */
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(https://picsum.photos/id/1082/1500/900); 
-  background-position: top;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(https://picsum.photos/id/1082/1500/1000); 
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
+
   height: 100vh;  
 }
 
@@ -34,7 +29,7 @@ main {
 /* styled h1 */
 h1 {
   padding: 10px;
-  margin: 10px;
+  margin: 0;
 
   text-align: center;
 
@@ -89,13 +84,13 @@ h3 {
 
 /* styled button */
 button {
-  display: flex;
-  justify-content: center;
-
   padding: 15px 30px 15px 30px;
   margin: auto;
   margin-top: 30px;
-  width: 100%;
+  width: auto;
+
+  display: flex;
+  align-items: center;
 
   border-radius: 10px;
   border-style: solid;
@@ -120,9 +115,15 @@ button:hover {
 a {
   text-decoration: none;
 }
+/* 
+@media screen and (min-width: 600px) {
+  header {
+    font-size: 15px;
+  }
+} */
 
-@media (min-width: 600px) {
-  body {
-    font-size: 20px;
+@media (width > 50rem) {
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(https://picsum.photos/id/1082/1500/900);   
   }
 }
