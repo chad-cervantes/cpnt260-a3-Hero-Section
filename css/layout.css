@@ -11,6 +11,11 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  max-width: 85ch;
+  text-align: center;
+}
+
 /* styling title */
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)), url(https://picsum.photos/id/1082/1500/900); 
@@ -34,6 +39,11 @@ h1 {
   text-align: center;
 
   color: white;
+
+  max-width: 85ch;
+
+  /* display: flex;
+  justify-content: center; */
 }
 
 /* styled h2 */

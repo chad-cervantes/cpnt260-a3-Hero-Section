@@ -5,6 +5,8 @@ nav {
   align-items: center;
   
   background-color: black;
+
+  max-width: auto;
 }
 
 /* styling navbar*/
