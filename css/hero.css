@@ -130,19 +130,18 @@ a {
   text-decoration: none;
 }
 
-nav {
+/* nav {
   display: flex;
   justify-content: space-between;
   background-color: black;
 
   align-items: center;
-}
+} */
 
 /* styling navbar*/
- nav ul {
+ /* nav ul {
   padding: 1rem;
-  /* padding-left: 0; */
-
+ 
   list-style: none;
 
   background-color: black;
@@ -156,29 +155,20 @@ nav {
   gap: 1rem;
 
   margin: 0;
-
-  /* width: auto; */
-  
-  /* margin-top: -10px; */
-}
+} */
 
 /* nav hover */
-nav a:hover {
+/* nav a:hover {
   background-color: lightsalmon;
   padding: 0.5rem 0.5rem 01rem 0.5rem;
-
-  /* gap: none; */
-}
+} */
 
 /* nav buttons */
-nav a {
+/* nav a {
   font-family: 'Noto Music', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-  /* text-align: center;
-  text-decoration: none; */
-  
   color: white;
-}
+} */
 
 @media (color) {
   nav {
