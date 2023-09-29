@@ -17,8 +17,9 @@ nav {
 
   background-color: black;
  
-  display: block;
-  justify-content: center;
+  /* display: block;
+  justify-content: center; */
+  display: none;
   
   gap: 1rem;
 
@@ -51,5 +52,24 @@ nav a {
     display: flex;
     justify-content: flex-end;  
     align-items: center;
+  }
+}
+
+input {
+  display: none;
+}
+
+input:checked + ul {
+  display: block;
+}
+
+@media screen and (width > 40rem) {
+  nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  label {
+    display: none;
   }
 }

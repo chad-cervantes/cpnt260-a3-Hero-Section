@@ -26,6 +26,12 @@ button {
   font-size: 20px;
 }
 
+/* styled label */
+label {
+  font-family: 'Noto Music', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
 /* styled nav ul typography */
 nav ul {
   font-size: 25px;
