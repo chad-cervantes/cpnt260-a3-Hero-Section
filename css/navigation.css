@@ -67,7 +67,7 @@ nav a {
   }
 }
 
-
+/*needed to make side navbar for mobile */
 @media screen and (width > 40rem) {
   nav ul {
     display: flex;
