@@ -19,7 +19,7 @@
   - [Original Source of image](https://apcamusic.org/)
 
 - [Link for 'Sign Up For Lessons' button](https://www.timemusicstudios.ca/?page_id=54)
-  - See line 40 in index.html
+  - See line 39 in index.html
 
 [Additional colors for CSS](https://heyreliable.com/ultimate-google-font-pairings/)
 
