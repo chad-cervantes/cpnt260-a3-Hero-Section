@@ -42,6 +42,7 @@ nav a {
   font-family: 'Noto Music', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* to make it mobile friendly */
 @media (width > 50rem) {
   h1 {
     font-size: 100px;   

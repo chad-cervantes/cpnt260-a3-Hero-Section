@@ -33,11 +33,22 @@ nav a:hover {
   padding: 0.5rem 0.5rem 01rem 0.5rem;
 }
 
+/* for label */
+input {
+  display: none;
+}
+
+/* ensures no checkboxes */
+input:checked + ul {
+  display: block;
+}
+
 /* nav buttons */
 nav a {
   color: white;
 }
 
+/* used different color for nav */
 @media (color) {
   nav {
     background-color: #1d2732;
@@ -47,6 +58,7 @@ nav a {
   }
 }
 
+/* to make it mobile friendly */
 @media (min-width: 50rem) {
   nav ul {
     display: flex;
@@ -55,13 +67,6 @@ nav a {
   }
 }
 
-input {
-  display: none;
-}
-
-input:checked + ul {
-  display: block;
-}
 
 @media screen and (width > 40rem) {
   nav ul {
