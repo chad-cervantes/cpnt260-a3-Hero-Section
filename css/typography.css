@@ -6,19 +6,19 @@ main {
 /* styling h1 typography */
 h1 {
   font-family: 'Noto Music', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 100px;
+  font-size: 50px;
 }
 
 /*styling h2 typography */
 h2 {
   font-family: 'Instrument Serif', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /* styled h3 typography */
 h3 {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 /* styled button typography */
@@ -34,4 +34,18 @@ nav ul {
 /* styled nav buttons typography */
 nav a {
   font-family: 'Noto Music', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (width > 50rem) {
+  h1 {
+    font-size: 100px;   
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
 }
